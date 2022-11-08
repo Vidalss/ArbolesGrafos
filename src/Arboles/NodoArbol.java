@@ -63,7 +63,6 @@ class Arbol
     {
         ayudantePreorden(raiz);
     }
-    //meoto recursivo para recorrido en preorden
 
     private void ayudantePreorden(NodoArbol nodo)
     {
@@ -81,7 +80,6 @@ class Arbol
         ayudanteInorden(raiz);
     }
 
-    //meoto recursivo para recorrido inorden
     private void ayudanteInorden( NodoArbol nodo)
     {
         if(nodo == null)
@@ -98,7 +96,6 @@ class Arbol
         ayudantePosorden(raiz);
     }
 
-    //meotod recursivo para recorrido posorden
     private void ayudantePosorden(NodoArbol nodo)
     {
         if( nodo == null )
